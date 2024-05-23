@@ -30,6 +30,10 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
+	
+	int car(int num) {
+   return a * a;
+}
 int main(){
 	int result = car(5);
 	printf("The result of car(5) is: %d\n", result);
