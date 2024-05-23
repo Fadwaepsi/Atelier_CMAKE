@@ -30,6 +30,10 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
+int main(){
+	int result = car(5);
+	printf("doit retournée la valeur 25",result);
+}
 }
 
 		
