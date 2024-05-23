@@ -26,19 +26,15 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
+	else if (strcmp(op, "car") == 0) {
+		r = _car(atof(a));
+		printf("%lf",r);
+	}
 	else {printf("Erreur de parametres");}
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
 	
-	int car(int num) {
-   return a * a;
-}
-int main(){
-	int result = car(5);
-	printf("The result of car(5) is: %d\n", result);
-	return 0;
-}
 }
 
 		
