@@ -33,6 +33,7 @@ int main(int argc, char *argv[]){
 int main(){
 	int result = car(5);
 	printf("doit retournée la valeur 25",result);
+	return 0;
 }
 }
 
