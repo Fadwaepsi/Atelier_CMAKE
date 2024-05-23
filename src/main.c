@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 	return 0;
 int main(){
 	int result = car(5);
-	printf("doit retournée la valeur 25",result);
+	printf("The result of car(5) is: %d\n", result);
 	return 0;
 }
 }
